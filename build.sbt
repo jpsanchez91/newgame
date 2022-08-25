@@ -8,7 +8,7 @@ ScalatraPlugin.scalatraSettings
 
 scalateSettings
 
-organization := "com.gaguena"
+organization := "com.jpsanchez"
 
 name := "NewGames"
 

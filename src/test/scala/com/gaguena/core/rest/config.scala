@@ -1,8 +1,8 @@
-package com.gaguena.core.rest
+package com.jpsanchez.core.rest
 
 import org.scalatra.test.specs2.MutableScalatraSpec
-import com.gaguena.core.support.FixtureSupport
-import com.gaguena.core.model.Game
+import com.jpsanchez.core.support.FixtureSupport
+import com.jpsanchez.core.model.Game
 
 class ServletSpecConfig extends MutableScalatraSpec  with FixtureSupport {
   addServlet(classOf[GameRest], "/game/*")

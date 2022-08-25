@@ -1,13 +1,13 @@
 import org.scalatra.LifeCycle
 
-import com.gaguena.core.model.{ Games, Genres }
-import com.gaguena.core.rest.GameRest
+import com.jpsanchez.core.model.{ Games, Genres }
+import com.jpsanchez.core.rest.GameRest
 import org.slf4j.{ Logger, LoggerFactory }
 
 import javax.servlet.ServletContext
-import com.gaguena.core.model.Autores
-import com.gaguena.core.model.Frases
-import com.gaguena.core.rest.AutorRest
+import com.jpsanchez.core.model.Autores
+import com.jpsanchez.core.model.Frases
+import com.jpsanchez.core.rest.AutorRest
 
 class ScalatraBootstrap extends LifeCycle {
 

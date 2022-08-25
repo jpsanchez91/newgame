@@ -1,4 +1,4 @@
-package com.gaguena.core.support
+package com.jpsanchez.core.support
 
 import br.com.six2six.fixturefactory.Fixture
 import br.com.six2six.fixturefactory.loader.FixtureFactoryLoader
@@ -7,7 +7,7 @@ import br.com.six2six.fixturefactory.Rule
 
 trait FixtureSupport {
 
-  FixtureFactoryLoader.loadTemplates("com.gaguena.core.templates")
+  FixtureFactoryLoader.loadTemplates("com.jpsanchez.core.templates")
 
   def buildFixture[T](name: String)(implicit tag: ClassTag[T]): T =
     Fixture.from(tag.runtimeClass).gimme(name).asInstanceOf[T]

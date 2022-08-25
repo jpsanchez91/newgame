@@ -1,4 +1,4 @@
-package com.gaguena.core.exceptions;
+package com.jpsanchez.core.exceptions;
 
 import java.io.Serializable;
 

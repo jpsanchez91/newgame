@@ -1,8 +1,8 @@
-package com.gaguena.core.templates
+package com.jpsanchez.core.templates
 
 import br.com.six2six.fixturefactory.loader.TemplateLoader
 import br.com.six2six.fixturefactory.Fixture
-import com.gaguena.core.model.Game
+import com.jpsanchez.core.model.Game
 import br.com.six2six.fixturefactory.Rule
 import java.time.LocalDateTime
 
